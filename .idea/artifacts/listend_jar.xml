@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="listend:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/listend_jar</output-path>
+    <root id="archive" name="NatsProd.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="NatsProd" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/nats/jnats/2.2.0/jnats-2.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
